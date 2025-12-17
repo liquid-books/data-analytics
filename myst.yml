@@ -1,0 +1,85 @@
+# Liquid Books Configuration
+# Created by Dr. Lee
+
+version: 1
+
+project:
+  title: "Data Analytics"
+  description: "An 8 chapter book on Data Analytics.
+- An introduction to Data Analytics
+- Univariate / Bivariate / Multivariate Analysis
+- AND 6 other relevant chapters but those are the top 2.
+
+the audience is Data Analytics undergraduate students and this is one of the first courses.  We will use a lot of Python and Pandas and Google Colab.  Students should be able to wrangle and feature engineer data so that they are positioned to take AI and Power BI and Tableau classes etc. next"
+  authors:
+    - name: "Dr. Ernesto Lee & Professor Carlos Marquez"
+  github: https://github.com/liquid-books/data-analytics
+  jupyter:
+    lite: true
+  toc:
+    - file: introduction-to-data-analytics.md
+    - file: what-is-data-analytics.md
+    - file: data-analytics-lifecycle.md
+    - file: types-of-analytics.md
+    - file: career-paths.md
+    - file: environment-setup.md
+    - file: python-fundamentals.md
+      children:
+        - file: python-data-types.md
+        - file: control-flow-functions.md
+        - file: intro-numpy.md
+        - file: intro-pandas.md
+        - file: hands-on-first-analysis.md
+    - file: data-acquisition-import.md
+      children:
+        - file: reading-files.md
+        - file: database-connections.md
+        - file: working-with-apis.md
+        - file: web-scraping.md
+        - file: hands-on-multi-source.md
+    - file: data-wrangling-cleaning.md
+      children:
+        - file: handling-missing-data.md
+        - file: duplicates-outliers.md
+        - file: data-type-conversions.md
+        - file: string-manipulation.md
+        - file: merging-joining.md
+        - file: hands-on-cleaning.md
+    - file: univariate-analysis.md
+      children:
+        - file: central-tendency.md
+        - file: dispersion-variability.md
+        - file: distribution-shape.md
+        - file: univariate-visualization.md
+        - file: categorical-analysis.md
+        - file: hands-on-univariate.md
+    - file: bivariate-analysis.md
+      children:
+        - file: correlation-covariance.md
+        - file: scatter-line-charts.md
+        - file: crosstab-chi-square.md
+        - file: comparing-groups.md
+        - file: bivariate-visualization.md
+        - file: hands-on-bivariate.md
+    - file: multivariate-analysis.md
+      children:
+        - file: multiple-correlation.md
+        - file: dimensionality-reduction.md
+        - file: pca.md
+        - file: cluster-analysis.md
+        - file: multivariate-visualization.md
+        - file: hands-on-multivariate.md
+    - file: feature-engineering.md
+      children:
+        - file: feature-creation.md
+        - file: encoding-categorical.md
+        - file: scaling-normalization.md
+        - file: binning-discretization.md
+        - file: feature-selection.md
+        - file: preparing-for-tools.md
+        - file: capstone-project.md
+
+site:
+  template: book-theme
+  title: "Data Analytics"
+
