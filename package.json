@@ -1,7 +1,7 @@
 {
   "name": "data-analytics",
   "version": "1.0.0",
-  "description": "An 8 chapter book on Data Analytics.\n- An introduction to Data Analytics\n- Univariate / Bivariate / Multivariate Analysis\n- AND 6 other relevant chapters but those are the top 2.\n\nthe audience is Data Analytics undergraduate students and this is one of the first courses.  We will use a lot of Python and Pandas and Google Colab.  Students should be able to wrangle and feature engineer data so that they are positioned to take AI and Power BI and Tableau classes etc. next",
+  "description": "This book deals  with  a  collection  of  computer  technologies  that  support  managerial  work—essentially, decision making. These technologies have had a profound impact on corporate strategy, performance, and competitiveness. Collectively, these technologies are called business intelligence, business analytics, and data science. Although the evolution of  the  terms  is  discussed,  these  names  are  also  used  interchangeably.  This  book  tells  stories  of  how  smart  people  are  employing  these  techniques  to  improve  performance,  service, and relationships in business, government, and non-profit worlds.\n\n",
   "scripts": {
     "start": "myst start",
     "build": "myst build --html",
@@ -13,7 +13,7 @@
     "jupyter-book",
     "documentation"
   ],
-  "author": "Dr. Ernesto Lee & Professor Carlos Marquez",
+  "author": "Dr. Ernesto Lee",
   "license": "MIT",
   "devDependencies": {
     "mystmd": "^1.0.0"

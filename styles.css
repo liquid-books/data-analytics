@@ -1,0 +1,57 @@
+/* Liquid Books Custom Styles */
+
+/* ========================================
+   HIDE MYST BRANDING - SPECIFIC ELEMENTS
+   ======================================== */
+
+/* Hide the "Made with MyST" text in the header home link */
+.myst-home-link span {
+  font-size: 0 !important;
+  visibility: hidden !important;
+}
+
+/* Replace with book title using CSS */
+.myst-home-link span::after {
+  content: "Data Analytics" !important;
+  font-size: 1rem !important;
+  visibility: visible !important;
+  font-weight: bold;
+}
+
+/* Hide the "Made with MyST" link in sidebar footer */
+.myst-made-with-myst {
+  display: none !important;
+}
+
+/* Also hide any links to mystmd.org */
+a[href*="mystmd.org"],
+a[href*="myst-tools"],
+a[href*="jupyter-book"] {
+  display: none !important;
+}
+
+/* Hide generic powered-by sections */
+.powered-by,
+.made-with,
+.built-with,
+.myst-branding,
+.myst-powered-by {
+  display: none !important;
+}
+
+/* ========================================
+   BOOK TITLE STYLING
+   ======================================== */
+.site-nav .nav-title,
+.navbar-brand,
+.site-title,
+.sidebar-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* Ensure our custom footer is visible */
+.page-footer,
+article footer {
+  display: block !important;
+}
