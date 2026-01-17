@@ -1,17 +1,31 @@
 ---
 title: Data Analytics
-
+thumbnail: ./images/cover.jpg
 ---
 
 # Data Analytics
+
+
+::::{grid} 1 1 2 2
+:gutter: 3
+
+:::{grid-item}
+:columns: 12 12 4 4
+
+![Book Cover](./images/cover.jpg)
+:::
+
+:::{grid-item}
+:columns: 12 12 8 8
 
 This book deals  with  a  collection  of  computer  technologies  that  support  managerial  work—essentially, decision making. These technologies have had a profound impact on corporate strategy, performance, and competitiveness. Collectively, these technologies are called business intelligence, business analytics, and data science. Although the evolution of  the  terms  is  discussed,  these  names  are  also  used  interchangeably.  This  book  tells  stories  of  how  smart  people  are  employing  these  techniques  to  improve  performance,  service, and relationships in business, government, and non-profit worlds.
 
 
 
-## About This Book
+**Author:** Dr. Ernesto Lee
+:::
+::::
 
-Written by Dr. Ernesto Lee
 
 ## Table of Contents
 
