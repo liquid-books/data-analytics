@@ -10,9 +10,9 @@
   visibility: hidden !important;
 }
 
-/* Replace with book title using CSS */
+/* Replace with book title and author using CSS */
 .myst-home-link span::after {
-  content: "Data Analytics" !important;
+  content: "Data Analytics by Dr. Ernesto Lee" !important;
   font-size: 1rem !important;
   visibility: visible !important;
   font-weight: bold;
