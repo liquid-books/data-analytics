@@ -4,32 +4,19 @@ thumbnail: ./images/cover.jpg
 ---
 
 
-::::{grid} 1 1 2 2
-:gutter: 4
-:class-container: book-header
+<div style="display: flex; gap: 2rem; align-items: flex-start; flex-wrap: wrap; margin-bottom: 2rem;">
+  <div style="flex: 0 0 200px;">
+    <img src="./images/cover.jpg" alt="Data Analytics" style="max-width: 200px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);" />
+  </div>
+  <div style="flex: 1; min-width: 280px;">
+    <h1 style="margin-top: 0;">Data Analytics</h1>
+    <p style="font-size: 1.2rem; color: #666; margin-bottom: 1rem;"><strong>by Dr. Ernesto Lee</strong></p>
+    <hr style="margin: 1rem 0;" />
+    <p>This book deals  with  a  collection  of  computer  technologies  that  support  managerial  work—essentially, decision making. These technologies have had a profound impact on corporate strategy, performance, and competitiveness. Collectively, these technologies are called business intelligence, business analytics, and data science. Although the evolution of  the  terms  is  discussed,  these  names  are  also  used  interchangeably.  This  book  tells  stories  of  how  smart  people  are  employing  these  techniques  to  improve  performance,  service, and relationships in business, government, and non-profit worlds.
 
-:::{grid-item}
-:columns: 12 12 4 4
-:class: cover-image
-
-![Data Analytics](./images/cover.jpg)
-:::
-
-:::{grid-item}
-:columns: 12 12 8 8
-:class: book-info
-
-# Data Analytics
-
-**by Dr. Ernesto Lee**
-
----
-
-This book deals  with  a  collection  of  computer  technologies  that  support  managerial  work—essentially, decision making. These technologies have had a profound impact on corporate strategy, performance, and competitiveness. Collectively, these technologies are called business intelligence, business analytics, and data science. Although the evolution of  the  terms  is  discussed,  these  names  are  also  used  interchangeably.  This  book  tells  stories  of  how  smart  people  are  employing  these  techniques  to  improve  performance,  service, and relationships in business, government, and non-profit worlds.
-
-
-:::
-::::
+</p>
+  </div>
+</div>
 
 
 ## 📚 Table of Contents
