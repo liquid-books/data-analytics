@@ -13,6 +13,7 @@ project:
     - name: "Dr. Ernesto Lee"
   github: https://github.com/liquid-books/data-analytics
   toc:
+    - file: index.md
     - file: new-chapter-1768610452511.md
     - file: new-chapter-1768610485975.md
     - file: new-chapter-1768610525110.md
@@ -24,10 +25,10 @@ project:
 
 site:
   template: book-theme
-  title: "Data Analytics"
+  title: "Data Analytics by Dr. Ernesto Lee"
   base: /data-analytics
   logo:
-    text: "Data Analytics"
+    text: "Data Analytics by Dr. Ernesto Lee"
   nav:
     - title: "Data Analytics"
       url: .
